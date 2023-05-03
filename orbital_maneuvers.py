@@ -1,13 +1,13 @@
 import math
 import numpy as np
 from pyquaternion import Quaternion
-from LULAV_math_functions import LulavMethFunctions
+from meth_functions import MethFunctions
 import scipy.optimize as optimize
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 from kepler_functions import KeplerFunctions
 
-lfm = LulavMethFunctions()
+lfm = MethFunctions()
 kf = KeplerFunctions()
 
 class OrbitalManeuvers:
